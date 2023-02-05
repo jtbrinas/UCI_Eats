@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="script.js">
+    </script>
+    <title>Brandywine</title>
+</head>
+<header>
+    <a href="index.html"><img src="images/logo.png" class="logo"></a>
+</header>
+<main>
+<body onload="getRatings('')">
+    <button onclick="getRatings('')"></button>
+    <div class="container">
+        <img src="images/cheeseburger.png" class="dish_images">
+        <img src="images/chicken.png" class="dish_images">
+        <img src="images/fries.png" class="dish_images">
+    </div>
+    <div class="container ratings">
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form action="http://127.0.0.1:5000/receiveFormData" method="post" target="dummyframe">
+            <p id="cheeseburger">
+            </p>
+            <input type="text" value="cheeseburger" class="food_label" name="food_name">
+            <input type="number" name="rating" max="5" min="1">
+            <input type="submit" id="cheeseburger_button">
+        </form>
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form action="http://127.0.0.1:5000/receiveFormData" method="post" target="dummyframe">
+            <p id="chicken">
+              
+            </p>
+            <input type="text" value="chicken" class="food_label" name="food_name">
+            <input type="number" name="rating" max="5" min="1">
+            <input type="submit" id="chicken_button">
+        </form>
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form action="http://127.0.0.1:5000/receiveFormData" method="post" target="dummyframe">
+            <p id="fries">
+            
+            </p>
+            <input type="text" value="fries" class="food_label" name="food_name">
+            <input type="number" name="rating" max="5" min="1">
+            <input type="submit" id="fries_button">
+        </form>
+    </div>
+    <div class="container">
+        <img src="images/pizza.png" class="dish_images">
+        <img src="images/veggie.png" class="dish_images">
+        <img src="images/pepperoni.png" class="dish_images">
+    </div>
+    <div class="container ratings">
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form action="http://127.0.0.1:5000/receiveFormData" method="post" target="dummyframe">
+            <p id="pizza">
+               
+            </p>
+            <input type="text" value="pizza" class="food_label" name="food_name">
+            <input type="number" name="rating" max="5" min="1">
+            <input type="submit" id="pizza_button">
+        </form>
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form action="http://127.0.0.1:5000/receiveFormData" method="post" target="dummyframe">
+            <p id="veggie">
+               
+            </p>
+            <input type="text" value="veggie" class="food_label" name="food_name">
+            <input type="number" name="rating" max="5" min="1">
+            <input type="submit" id="veggie_button">
+        </form>
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form action="http://127.0.0.1:5000/receiveFormData" method="post" target="dummyframe">
+            <p id="pepperoni"></p>
+            <input type="text" value="pepperoni" class="food_label" name="food_name">
+            <input type="number" name="rating" max="5" min="1">
+            <input type="submit" id="pepperoni_button">
+        </form>
+    </div>
+    <form>
+        
+    </form>
+
+</body>
+</main>
+</html>

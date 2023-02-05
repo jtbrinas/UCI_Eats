@@ -1,0 +1,101 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 10%;
+}
+
+.eatery_pics {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 675px; 
+}
+
+#big_images{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.center.text{
+    text-align: center;
+    font-family: "Inter";
+}
+
+header {
+    background-color: #D9D9D9;
+    background-size: 100%;
+}
+
+#buttons {
+    border-radius: 12px;
+    font-size: 24pt;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ghost_button {
+    font-size: 14pt;
+    height: 75px;
+    width: 150px;
+    color: #3E7CB1;
+    background-color: #FFF;
+    border-color: #3E7CB1;
+    border-radius: 12px;
+
+}
+
+.primary_button {
+    font-size: 14pt;
+    height: 75px;
+    width: 150px;
+    color: #FFF;
+    background-color: #3E7CB1;
+    border-color: #FFF;
+    border-style: solid;
+    border-radius: 12px;
+}
+
+/* Flex box */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.container.ratings {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    display: flex;
+    justify-content: space-around;
+    opacity: 1;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.dish_images {
+    height: 200px;
+    width: 300px;
+    margin-inline: 50px;
+    margin-bottom: 37px;
+    margin-top: 37px;
+    opacity: 1;
+}
+
+.dish_images:hover {
+    opacity: 0.5;
+}
